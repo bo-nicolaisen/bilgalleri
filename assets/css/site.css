@@ -1,1 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carGallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.imgTile{
+    width: 32%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#big{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
